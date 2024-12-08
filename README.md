@@ -26,6 +26,8 @@ This HTML template is for a dashboard page displaying videos and images with a l
 •	Logout Button: A link for logging out, dynamically generated using Flask's url_for.
 The page uses local file paths for media, which should be replaced with server paths in a real-world app. The CSS is linked dynamically with Flask.
 
+
+
 # LOGIN PAGE
 This is a login page HTML template with the following key features:
 •	Flash Messages: Displays any notifications or errors from Flask.
