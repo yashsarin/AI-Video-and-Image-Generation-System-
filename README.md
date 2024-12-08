@@ -1,5 +1,7 @@
 # AI-Video-and-Image-Generation-System-
 This project is designed to assess your programming skills, creativity, problem-solving abilities, and ability to work with AI tools.
+
+
 Part 1: Text-to-Video and Text-to-Image Generation
 Accept a text prompt from the user.
 Generate at least:
