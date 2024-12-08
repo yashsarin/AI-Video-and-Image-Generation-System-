@@ -46,7 +46,7 @@ The page uses Flask's url_for to generate dynamic URLs and links to an external 
 
 
 
-ASSIGNEMENT- 
+# ASSIGNEMENT- 
 Part 1: Text-to-Video and Text-to-Image Generation
 Accept a text prompt from the user.
 Generate at least:
