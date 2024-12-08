@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Processing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>HELLO USER,</h1>
+        </header>
+
+        <section class="content">
+            <p>Your content is being generated. Please check back later.</p>
+
+            <!-- Loading Animation -->
+            <div class="loader"></div>
+
+            <p class="info">It may take a few moments. Thank you for your patience!</p>
+        </section>
+
+        <div class="logout-section">
+            <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+        </div>
+    </div>
+</body>
+
+</html>

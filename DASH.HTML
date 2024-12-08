@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>WELCOME USER !!</h1>
+        </header>
+
+        <section class="media-section">
+            <!-- Videos Section -->
+            <div class="videos">
+                <h2>Videos</h2>
+                <div class="video-gallery">
+                 
+                    <div class="video-item">
+                        <video controls>
+                            <source src="{{file:///C:/Users/yashs/OneDrive/Desktop/AI%20IMG%20&%20VIDEO/video.mp4}}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <!-- Images Section -->
+            <div class="images">
+                <h2>Images</h2>
+                <div class="image-gallery">
+                   
+                    <div class="image-item">
+                        <img src="{{ file:///C:/Users/yashs/OneDrive/Desktop/AI%20IMG%20&%20VIDEO/IMG.jpeg}}" alt="Image">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Logout Button -->
+
+
+
+        <div class="logout-section">
+            <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+        </div>
+    </div>
+</body>
+
+</html>
